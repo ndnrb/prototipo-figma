@@ -1,0 +1,8 @@
+echo "# prototipo-figma" >> README.md
+git init
+git add README.md
+git commit -m "first commit diseño de Logins"
+git add login.png
+git branch -M main
+git remote add origin https://github.com/ndnrb/prototipo-figma.git
+git push -u origin main
